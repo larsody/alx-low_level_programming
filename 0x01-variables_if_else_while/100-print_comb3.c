@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - prints all possible different combinations of two digits
  * Numbers must be separated by ,, followed by a space
  * The two digits must be different
- * 01 and 10 are considered the same combination of the two digits 0 and 1
+ * are considered the same combination of the two digits 0 and 1
  * Print only the smallest combination of two digits
  * Numbers should be printed in ascending order, with two digits
  * Numbers should be printed in ascending order, with two digits
@@ -14,26 +13,22 @@
  */
 int main(void)
 {
-int n;
-int m = 0;
-while (d < 10)
+int n, m;
+for (n = 48; n <=56; n++)
 {
-n=0;
-while (n < 10)
+for (m = 49; m <= 57; m++)
 {
-if (m !=n && m < c)
+if (m > n)
 {
-putchar('0' +  m);
-putchar('0' +  n);
-if (n + m  != 17)
+putchar(n);
+putchar(m);
+if (n != 56 || m !=57)
 {
 putchar(',');
 putchar(' ');
 }
 }
-n++;
 }
-d++;
 }
 putchar('\n');
 return (0);
