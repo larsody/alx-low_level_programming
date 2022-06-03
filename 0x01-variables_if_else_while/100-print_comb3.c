@@ -14,22 +14,25 @@
 int main(void)
 {
 int n;
-int m;
-for (n=48; n <= 56; n++)
+int m = 0;
+while (d < 10)
 {
-for (m = 49; m <= 57; m++)
+n=0;
+while (n < 10)
 {
-if (m > n)
+if (m !=n && m < c)
 {
-putchar(n);
-putchar(m);
-if (n != 56 || m != 57)
+putchar('0' +  m);
+putchar('0' +  n);
+if (n + m  != 17)
 {
 putchar(',');
 putchar(' ');
 }
 }
+n++;
 }
+d++;
 }
 putchar('\n');
 return (0);
