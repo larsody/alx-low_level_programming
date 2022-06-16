@@ -18,7 +18,7 @@ File 100-rot13.c is a function that encodes a string using rot13.
 
 File 101-print_number.c is a a function that prints an integer.
 
-File 102-magic.c is a magic file
+File 102-magic.c is a magic file, that needs to 
 
 File 103-infinite_add.c is a function that adds two numbers.
 
