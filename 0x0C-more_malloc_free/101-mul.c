@@ -25,23 +25,23 @@ void _puts(char *str)
 int _atoi(const char *s)
 {
 	int sign = 1;
-	unsigned long int resp = 0, firstNum, i;
+	unsigned long int rs = 0, num1, i;
 
-	for (firstNum = 0; !(s[firstNum] >= 48 && s[firstNum] <= 57); firstNum++)
+	for (num1 = 0; !(s[num1] >= 48 && s[num1] <= 57); num1++)
 	{
-		if (s[firstNum] == '-')
+		if (s[num1] == '-')
 		{
 			sign *= -1;
 		}
 	}
 
-	for (i = firstNum; s[i] >= 48 && s[i] <= 57; i++)
+	for (i = num1; s[i] >= 48 && s[i] <= 57; i++)
 	{
-		resp *= 10;
-		resp += (s[i] - 48);
+		rs *= 10;
+		rs += (s[i] - 48);
 	}
 
-	return (sign * resp);
+	return (sign * rs);
 }
 
 /**
@@ -52,13 +52,13 @@ int _atoi(const char *s)
 
 void print_int(unsigned long int n)
 {
-	unsigned  long int divisor = 1, i, resp;
+	unsigned  long int divisor = 1, i, rs;
 
 	for (i = 0; n / divisor > 9; i++, divisor *= 10)
 		for (; divisor >= 1; n %= divisor, divisor /= 10)
 		{
-			resp = n / divisor;
-			_putchar('0' + resp);
+			rs = n / divisor;
+			_putchar('0' + rs);
 		}
 }
 
