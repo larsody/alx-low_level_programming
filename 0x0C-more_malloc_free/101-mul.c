@@ -9,8 +9,9 @@
 int main(int argc, char *argv[])
 {
 	unsigned long mul;
-	int num1, num2;	
-	if (argc !=3)
+	int num1, num2;
+
+	if (argc != 3)
 	{
 		printf("Error\n");
 		exit(98);
