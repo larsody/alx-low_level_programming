@@ -1,4 +1,4 @@
-# Variadic functions: functions that takes underfined number and type of arguments
+## Variadic functions: functions that takes underfined number and type of arguments
 
 
 ## 0. Beauty is variable, ugliness is constant
