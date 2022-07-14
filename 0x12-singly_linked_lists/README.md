@@ -7,15 +7,23 @@ Project on Linked list in **C programming** organized by **ALX Full Stack Softwa
 * C files are written according to the `Betty` style standard
 
 ## Tasks
-0. Print list
-- [0-print_list.c]() -  a function that prints all the elements of a `list_t` list. 
-1. List length
-- [1-list_len.c]() - a function that returns the number of elements in a linked `list_t` list.
-2. Add node
-- [2-add_node.c]()-  a function that adds a new node at the beginning of a `list_t` list.
-3. Add node at the end
-- [3-add_node_end.c]() - a function that adds a new node at the end of a `list_t` list.
-4. Free list
-- [4-free_list.c]() - a function that frees a `list_t` list.
-5. The Hare and the Tortoise
-- [00-first.c]() - a function that prints `You're beat! and yet, you must allow,\nI bore my house upon my back!\n` before the `main` function is executed.
+## 0. Print list
+- [0-print_list.c](https://github.com/larsody/alx-low_level_programming/blob/master/0x12-singly_linked_lists/0-print_list.c) -  a function that prints all the elements of a `list_t` list. 
+
+## 1. List length
+- [1-list_len.c](https://github.com/larsody/alx-low_level_programming/blob/master/0x12-singly_linked_lists/1-list_len.c) - a function that returns the number of elements in a linked `list_t` list.
+
+## 2. Add node
+- [2-add_node.c](https://github.com/larsody/alx-low_level_programming/blob/master/0x12-singly_linked_lists/2-add_node.c) -  a function that adds a new node at the beginning of a `list_t` list.
+
+## 3. Add node at the end
+- [3-add_node_end.c](https://github.com/larsody/alx-low_level_programming/blob/master/0x12-singly_linked_lists/3-add_node_end.c) - a function that adds a new node at the end of a `list_t` list.
+
+## 4. Free list
+- [4-free_list.c](https://github.com/larsody/alx-low_level_programming/blob/master/0x12-singly_linked_lists/4-free_list.c) - a function that frees a `list_t` list.
+
+## 5. The Hare and the Tortoise
+- [100-first.c](https://github.com/larsody/alx-low_level_programming/blob/master/0x12-singly_linked_lists/100-first.c) - a function that prints `You're beat! and yet, you must allow,\nI bore my house upon my back!\n` before the `main` function is executed.
+
+## 6. Real programmers can write assembly code in any language
+- [101-hello_holberton.asm](https://github.com/larsody/alx-low_level_programming/blob/master/0x12-singly_linked_lists/101-hello_holberton.asm) - a 64-bit program in assembly that prints `Hello, Holberton`, followed by a new line. 
