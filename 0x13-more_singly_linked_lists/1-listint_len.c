@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * listnt_len - returns then number of elements in a list.
+ * listint_len - returns then number of elements in a list.
  * @h: singly linked list.
  * Return: number of elements in the list.
  */
