@@ -1,10 +1,9 @@
 #include "lists.h"
-#include <string.h>
 
 /**
  * *add_nodeint - adds a node to a linked list head
  * @head: linked list head
- * @n: string element of the linked list
+ * @n: int element of the linked list
  * Return: number of elements
  */
 
