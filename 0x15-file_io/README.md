@@ -8,3 +8,11 @@ Project on Linked list in **C programming** organized by **ALX Full Stack Softwa
 ## Tasks
 ## 0. Tread lightly, she is near
 - `0-read_textfile.c` - a function that reads a text file and prints it to the ``POSIX`` standard output.
+
+## 1. Under the snow
+- `1-create_file.c` -  a function that creates a file.
+
+## 2. Speak gently, she can hear
+- `2-append_text_to_file.c` - a function that appends text at the end of a file.
+
+
